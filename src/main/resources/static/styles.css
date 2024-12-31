@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.ingredient-group {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.ingredient-group h3 {
+  margin-top: 0;
+}
+
+#name h3 {
+  margin-bottom: 0;
+}
+
+#name {
+  text-align: center;
+  margin: 1rem;
+}
+
+#name input {
+  margin-bottom: 1rem;
+}
